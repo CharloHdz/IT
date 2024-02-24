@@ -77,5 +77,8 @@ void SetGravity(){
 
     movePlayer.y = -gravity * Time.deltaTime;
 }
+
+   
 }
+
 

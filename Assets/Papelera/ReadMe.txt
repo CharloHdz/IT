@@ -1,0 +1,1 @@
+Esta papelera servirá para los scripts que estén incompletos o que se puedan dar un mejor uso en otros scripts

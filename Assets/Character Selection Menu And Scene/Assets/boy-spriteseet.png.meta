@@ -93,7 +93,7 @@ TextureImporter:
       213: 5448794193852730323
     second: boy-spriteseet_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,10 +110,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,12 +124,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -145,11 +147,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -161,6 +167,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -173,6 +180,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -185,6 +193,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -197,6 +206,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -842,9 +865,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      boy-spriteseet_0: -7652797415781840661
+      boy-spriteseet_1: 4478586751601186239
+      boy-spriteseet_10: -405302724013185581
+      boy-spriteseet_11: 6762490386087266365
+      boy-spriteseet_12: 2940561093777889688
+      boy-spriteseet_13: 7415322910153385129
+      boy-spriteseet_14: -2126702570284798619
+      boy-spriteseet_15: 2793451695410927868
+      boy-spriteseet_16: 3834406640094508234
+      boy-spriteseet_17: 6274747056076478834
+      boy-spriteseet_18: -1384190476781509848
+      boy-spriteseet_19: -6897413683712783501
+      boy-spriteseet_2: 6234691849901091278
+      boy-spriteseet_20: -6169207652242000868
+      boy-spriteseet_21: -9136234824776690071
+      boy-spriteseet_22: -4473857476558059908
+      boy-spriteseet_23: -2507554083671415462
+      boy-spriteseet_24: -5050570743368255900
+      boy-spriteseet_25: 416657499453964680
+      boy-spriteseet_26: -8124847353929379795
+      boy-spriteseet_27: -2288679533176797970
+      boy-spriteseet_28: -2340437700800075272
+      boy-spriteseet_29: 5448794193852730323
+      boy-spriteseet_3: 279789488437911277
+      boy-spriteseet_4: 4108938471693445081
+      boy-spriteseet_5: 5851564157952668897
+      boy-spriteseet_6: -2024152024388947721
+      boy-spriteseet_7: 5545200762034113125
+      boy-spriteseet_8: 6045082911851670089
+      boy-spriteseet_9: -4834283029443127342
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

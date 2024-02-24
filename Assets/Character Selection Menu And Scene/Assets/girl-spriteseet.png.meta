@@ -111,7 +111,7 @@ TextureImporter:
       213: 3489897646829387718
     second: girl-spriteseet_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,10 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,12 +142,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -163,11 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -179,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -191,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -203,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -215,6 +224,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -986,9 +1009,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      girl-spriteseet_0: -3159215701703397820
+      girl-spriteseet_1: 1347736138429461688
+      girl-spriteseet_10: 4763573599310822764
+      girl-spriteseet_11: 4891543157643087969
+      girl-spriteseet_12: -8358012250755899205
+      girl-spriteseet_13: 7318483573528813057
+      girl-spriteseet_14: 8436665223270894669
+      girl-spriteseet_15: -1482745497224967226
+      girl-spriteseet_16: 5048880173319039067
+      girl-spriteseet_17: -4610841886536137464
+      girl-spriteseet_18: 598289380988764129
+      girl-spriteseet_19: 7277617303359294173
+      girl-spriteseet_2: 5997702036949031015
+      girl-spriteseet_20: -7352597752961436185
+      girl-spriteseet_21: -9193452194809613700
+      girl-spriteseet_22: -4690418169733108966
+      girl-spriteseet_23: 6598485098107379200
+      girl-spriteseet_24: 4493017663394418865
+      girl-spriteseet_25: -8593924184510506337
+      girl-spriteseet_26: -5119753847569125954
+      girl-spriteseet_27: -335783484906730638
+      girl-spriteseet_28: 2438852508043344121
+      girl-spriteseet_29: 3792910031763486309
+      girl-spriteseet_3: -8974893550397538054
+      girl-spriteseet_30: 903279177028458651
+      girl-spriteseet_31: -211633715858951225
+      girl-spriteseet_32: 7759752866107665
+      girl-spriteseet_33: 4995900161642915631
+      girl-spriteseet_34: 169870795294656477
+      girl-spriteseet_35: 3489897646829387718
+      girl-spriteseet_4: 2056399137182056474
+      girl-spriteseet_5: 3634688139985851748
+      girl-spriteseet_6: 1327300211001988140
+      girl-spriteseet_7: -5278439049555178071
+      girl-spriteseet_8: 2432334923118235572
+      girl-spriteseet_9: -1930714213762237489
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -126,7 +126,7 @@ TextureImporter:
       213: -3703122776106963806
     second: Spritesheet_Mesa de trabajo 1_40
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -143,10 +143,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -185,6 +187,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -196,6 +200,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -208,6 +213,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -220,6 +226,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -232,6 +239,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -244,6 +252,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1120,9 +1142,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Spritesheet_Mesa de trabajo 1_0: 6368738898451663506
+      Spritesheet_Mesa de trabajo 1_1: 5683289376808401107
+      Spritesheet_Mesa de trabajo 1_10: 6266248747205955737
+      Spritesheet_Mesa de trabajo 1_11: 8632257272855064418
+      Spritesheet_Mesa de trabajo 1_12: 2358414271480159146
+      Spritesheet_Mesa de trabajo 1_13: 1823984776979627855
+      Spritesheet_Mesa de trabajo 1_14: -3307337704368736250
+      Spritesheet_Mesa de trabajo 1_15: 916650518969192450
+      Spritesheet_Mesa de trabajo 1_16: -8469129491592357405
+      Spritesheet_Mesa de trabajo 1_17: 1542169502766224172
+      Spritesheet_Mesa de trabajo 1_18: -1743523835983978263
+      Spritesheet_Mesa de trabajo 1_19: 9023800427614545021
+      Spritesheet_Mesa de trabajo 1_2: 7215867791123724595
+      Spritesheet_Mesa de trabajo 1_20: 9114602666524570946
+      Spritesheet_Mesa de trabajo 1_21: -4883581988135307216
+      Spritesheet_Mesa de trabajo 1_22: 8983570490366257734
+      Spritesheet_Mesa de trabajo 1_23: 1293681131616992013
+      Spritesheet_Mesa de trabajo 1_24: -3542246461828460718
+      Spritesheet_Mesa de trabajo 1_25: 7739817959529161643
+      Spritesheet_Mesa de trabajo 1_26: 9142772912861588212
+      Spritesheet_Mesa de trabajo 1_27: 3014655223441345555
+      Spritesheet_Mesa de trabajo 1_28: 6012272441207592237
+      Spritesheet_Mesa de trabajo 1_29: 7570661381149424125
+      Spritesheet_Mesa de trabajo 1_3: 2379927670960912486
+      Spritesheet_Mesa de trabajo 1_30: 5357757967966977988
+      Spritesheet_Mesa de trabajo 1_31: 2579121805135365964
+      Spritesheet_Mesa de trabajo 1_32: 6722197098951473057
+      Spritesheet_Mesa de trabajo 1_33: -4307130379862167026
+      Spritesheet_Mesa de trabajo 1_34: -2305229263338954664
+      Spritesheet_Mesa de trabajo 1_35: 1955072739964109365
+      Spritesheet_Mesa de trabajo 1_36: -4184059296646465988
+      Spritesheet_Mesa de trabajo 1_37: 8616417158812485660
+      Spritesheet_Mesa de trabajo 1_38: -6048525946464165957
+      Spritesheet_Mesa de trabajo 1_39: 992186332893288228
+      Spritesheet_Mesa de trabajo 1_4: -8982493598527796303
+      Spritesheet_Mesa de trabajo 1_40: -3703122776106963806
+      Spritesheet_Mesa de trabajo 1_5: -5432187751098856084
+      Spritesheet_Mesa de trabajo 1_6: -2039873702923178563
+      Spritesheet_Mesa de trabajo 1_7: 1762403194762569501
+      Spritesheet_Mesa de trabajo 1_8: 3096576020073940157
+      Spritesheet_Mesa de trabajo 1_9: -4099969994192733792
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
